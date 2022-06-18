@@ -24,25 +24,25 @@
 //
 //scnd task
 //
-// let get = prompt("Entr odd or even");
+let get = prompt("Entr odd or even");
 
-// let array = [10, 20, 3, 40, 50, 60, 7, 80, 9, 100];
+let array = [10, 20, 3, 40, 2, 4, 3, 35, 3, 5, 50, 60, 7, 80, 9, 100];
 
-// const filteredArray = array.filter(checkEvenOdd);
+const filteredArray = array.filter(checkEvenOdd);
 
-// function checkEvenOdd(num) {
-//   if (get == "even") {
-//     return num % 2 !== 0;
-//   } else if (get === "odd") {
-//     return num % 2 === 0;
-//   }
-// }
-// console.log(filteredArray);
+function checkEvenOdd(num) {
+  if (get == "even") {
+    return num % 2 !== 0;
+  } else if (get === "odd") {
+    return num % 2 === 0;
+  }
+}
+console.log(filteredArray);
 
 //
-function plus(a, b) {
-  // let a = 22;
-  // let b = 18;
-  let c = a + b;
-  console.log(c);
-}
+// function plus(a, b) {
+//   // let a = 22;
+//   // let b = 18;
+//   let c = a + b;
+//   console.log(c);
+// }
